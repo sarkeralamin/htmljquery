@@ -1,0 +1,184 @@
+/* --------------------------------------
+Bootstrap 3 Media Queries
+----------------------------------------- */
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {	
+}
+ 
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+ 
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {	
+}
+ 
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+ 
+ 
+ 
+/*==========  Non-Mobile First Method  ==========*/
+ 
+@media only screen and (max-width : 1200px) and (min-width : 992px){
+	.figures_stats ul.figures > li {
+    border-left: medium none;
+    padding: 15px 0;
+    width: 33%;
+}
+
+}
+@media only screen and (max-width : 1200px){
+	.figures_stats ul.figures > li {
+		border-left: medium none;
+		padding: 15px 0;
+		width: 33%;
+	}
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+	.funnel-item input.input {
+		width: 50%;
+	}
+	.funnel-item .col-md-12 > button.btn {
+		width: 24%;
+	}
+}
+@media only screen and (max-width : 992px) {
+
+	html {
+		font-size: 90%;
+	}
+	.modal-content .form-inline {
+		display: block;
+		margin: 15px 0 0 0;
+	}
+	.modal-content .form-group {
+		display: block;
+	}
+	.modal-content .form-inline label {
+		display: none;
+	}
+	.modal-content .form-inline .form-control {
+		width: 100%;
+	}
+	.modal-content .form-group.text-right {
+		text-align: center;
+	}
+	.modal-content .btn {
+		margin: 5px;
+	}
+	.modal-footer nav > span {
+		display: block;
+		width: 100%;
+	}
+	.modal-footer nav {
+		text-align: center;
+	}
+	.customfilters > select,
+	.customfilters > input {
+		margin: 2% 1%;
+	}
+	.add_removed_btn {
+		position: relative;
+		right: auto;
+		float: left;
+		width: 100%;
+	}
+		
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	html {
+		font-size: 80%;
+	}
+	h1 {
+	
+	}
+	h2 {}
+	
+	h3 {}
+	
+	h4 {
+	
+	}
+	
+	h5 {
+	
+	}
+	.tabstyle1 .nav-tabs > li {
+		width: 100%;
+	}
+	.funnel-item input.input {
+		width: 100%;
+	}
+	.funnel-item .col-md-12 > button.btn {
+		width: 48%;
+		margin: 10px 1% 0% 1%;
+	}
+	.page-horizontal-bar.page-header-fixed .horizontal-bar {
+		background: #003366;
+		height: 100%; 
+	}
+	.customfilters > select,
+	.customfilters > input {
+		margin: 10px 0 5px 0;
+		width: 100%;
+	}
+	.membersTable_view {
+		float: left;
+	}
+	.dataTables_wrapper .dataTables_inactive {
+    float: left;
+    margin: 15px 0;
+    width: 100%;
+}
+.figure_action a.btn {
+	margin: 5px;
+}
+.line-border span.line,
+.line-border span {
+	background: none;
+}
+}
+ @media only screen and (max-width : 580px) {
+.figures_stats ul.figures > li {
+    width: 49%;
+}
+ }
+ @media only screen and (max-width : 520px) {
+	 .p-v-lg {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.funnel-item button.tracking-btn {
+		margin: 10px 0;
+	}
+ }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+html {
+	font-size: 65%;
+}
+
+}
+ 
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+}
+
+@media only screen and (max-width : 320px) {
+
+}

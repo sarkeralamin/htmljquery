@@ -1,0 +1,342 @@
+/* Write your custom CSS here */
+body {
+	font-family: 'Lato', sans-serif;
+}
+.green {
+	color:#2c9917;
+}
+.d_blue{
+	color:#162336;
+}
+.l_blue {
+	color:#10345D;
+}
+.red{
+	color:#CE0000;
+}
+.black: {
+	color:#222;
+}
+.tooltip {
+	z-index: 9999999;
+}
+.nav-tab2 {
+}
+.nav-tab2 li {
+	width: 50%;
+	text-align: center;
+}
+.nav-tab3 li {
+	width: 33.33333%;
+	text-align: center;
+}
+.nav-tab4 li {
+	width: 25%;
+	text-align: center;
+}
+.nav-tab5 li {
+	width: 20%;
+	text-align: center;
+}
+.nav-tab2.nav-tabs > li.active > a, 
+.nav-tab2.nav-tabs > li.active > a:focus, 
+.nav-tab2.nav-tabs > li.active > a:hover,
+.nav-tab3.nav-tabs > li.active > a, 
+.nav-tab3.nav-tabs > li.active > a:focus, 
+.nav-tab3.nav-tabs > li.active > a:hover,
+.nav-tab4.nav-tabs > li.active > a, 
+.nav-tab4.nav-tabs > li.active > a:focus, 
+.nav-tab4.nav-tabs > li.active > a:hover,
+.nav-tab5.nav-tabs > li.active > a, 
+.nav-tab5.nav-tabs > li.active > a:focus, 
+.nav-tab5.nav-tabs > li.active > a:hover {
+	background: #10345d;
+	border-bottom-color: #10345d;
+	border: none;
+	color: #FFF;
+}
+.tabstyle1 .nav-tabs > li > a {
+	border: none;
+	margin: 0;
+	font-weight: 400;
+}
+.dataTables_wrapper .dataTables_paginate {
+	padding-top: 10px;
+}
+.dataTables_wrapper .dataTables_info {
+	margin-top: 15px;
+}
+ul.figures {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+ul.figures > li {
+	display: inline-block;
+	padding:10px 20px;
+}
+ul.figures > li > span {
+	font-size: 14px;
+}
+ul.figures > li p {
+	font-size: 32px;
+	font-weight: bold;
+}
+/******************* Funnel Link Page *******/
+.funnel-item {
+}
+.funnel-item ul.page_view {
+	padding: 0;
+}
+.funnel-item ul.page_view > li {
+	display: inline-block;
+	padding:9px 10px 20px;
+}
+.funnel-item ul.page_view > li > label {
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.funnel-item ul.page_view > li p {
+	font-size: 24px;
+}
+.funnel-item button.tracking-btn {
+	margin: -2px 0 0 15px;
+}
+.funnel-item a.green {
+	text-decoration: none;
+	font-size: 24px;
+}
+.funnel-item a.green > i.icon-eye {
+	line-height: 10px;
+}
+.funnel-item input.input {
+    float: left;
+    padding: 8px 20px;
+    width: 65%;
+}
+.funnel-item .col-md-12 > button.btn {
+    float: left;
+    margin: 0 0 0 1%;
+    padding: 8px 20px;
+    width: 15%;
+}
+/******************* //Funnel Link Page *******/
+/******************* POPUP *******/
+.modal-title {
+	font-size: 18px;
+	font-weight: normal;
+}
+.modal-content .form-group {
+	margin: 20px 0;
+}
+.modal-content label {
+	margin-bottom: 15px;
+}
+.modal-content .form-inline {
+    text-align: right;
+}
+.modal-content .form-inline label {
+	margin: 0 15px 0 0;
+}
+.modal-content .btn {
+	margin-left: 10px;
+}
+.modal-footer nav > span {
+	float: left;
+	margin: 10px;
+}
+.modal-footer nav .pagination {
+	margin: 0;
+}
+.modal-body .table > tbody > tr > td, .modal-body .table > tbody > tr > th, 
+.modal-body .table > tfoot > tr > td, .modal-body .table > tfoot > tr > th, 
+.modal-body .table > thead > tr > td, .modal-body .table > thead > tr > th {
+	border-bottom: 1px #ccc solid;
+}
+table.dataTable thead th, table.dataTable thead td {
+	border-color: #999;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+	background: #FFF;
+}
+.pagination > li > a, .pagination > li > span {
+	border: none;
+	margin: 0;
+}
+/******************* //POPUP *******/
+/**** SUBSCRIBER Page ***/
+.table-responsive {
+	font-weight: 400;
+}
+.subsc_user_pop {
+	text-align: center;
+}
+.subsc_user_pop li {
+	display: inline-block;
+	padding: 5px 20px;
+}
+.subscriber_view th,
+.subscriber_view td {
+	text-align: center;
+}
+/**** //SUBSCRIBER Page ***/
+.text-center th {
+	text-align: center;
+}
+.personal-info a.m-t-sm {
+	margin: 10px 0 10px 0;
+}
+/**** admin-members ***/
+.customfilters {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.customfilters > select,
+.customfilters > input {
+	width: 48%;
+	margin: 1%;
+    border: 1px solid #dce1e4;
+    border-radius: 0;
+    padding: 6px 10px !important;
+    transition: all 0.2s ease-in-out 0s;
+	float: left;
+}
+.add_removed_btn {
+    bottom: 0;
+    position: absolute;
+    right: -75px;
+}
+.add_removed_btn a {
+    font-size: 28px;
+    margin: 0 3px;
+}
+.cfilters-action {
+    float: left;
+    margin: 10px 0;
+    width: 100%;
+}
+.cfilters-action .btn {
+	margin: 5px;
+}
+.dataTables_wrapper .dataTables_inactive {
+	float: left;
+	margin: 5px 10px;
+}
+.membersTable_view {
+    border: 1px solid #ccc;
+    float: right;
+    height: 33px;
+    line-height: 33px;
+    width: 40px;
+	margin-left: 10px;
+}
+.membersTable_view a {
+	font-size: 16px;
+	color: #666;
+	cursor: pointer;
+}
+.grigview,
+.listview {
+	display: none;
+}
+.grigview.active,.listview.active {
+	display: block;
+}
+.referr_value {
+    border: 1px solid #222;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    line-height: 27px;
+    width: 30px;
+	color:#222;
+	margin: -20px;
+}
+.referr_value.green {
+	color: #2c9917;
+	border-color: #2c9917;
+}
+.referr_value.red {
+	border-color: #ce0000;
+}
+/****** //admin-members ******/
+ul#draggable_area {
+	padding: 0;
+	margin: 0;
+}
+ul#draggable_area > li  {
+	cursor: all-scroll;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e9e9e9 !important;
+	    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+	padding: 20px;
+}
+
+.figures_stats > h3 {
+	line-height: 38px;
+	padding:5px 0 25px 0px;
+	margin: 0;
+}
+.figure_head {
+	overflow: hidden;
+	padding:5px 0 25px 0px;
+}
+.numbering {
+	float: left;
+}
+.numbering > span {
+    background: #10345d;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 27px;
+    margin-right: 20px;
+    text-align: center;
+    width: 30px;
+}
+.draggable_area .numbering > span {
+    margin: 25px 15px;
+    position: relative;
+    z-index: 9999;
+}
+.figure_action {
+	float: right;
+}
+.figure_action a.btn {
+	margin-left: 10px;
+}
+.figures_stats ul.figures > li {
+	padding: 15px 50px;
+	border-left: 1px #ccc solid;
+}
+.figures_stats ul.figures > li:first-child {
+	border: none;
+}
+.line-border {
+	position: relative;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.line-border span.line {
+	background: #e9e9e9;
+	height: 1px;
+	width: 100%;
+	top: 50%;
+	position:absolute;
+	z-index:1;
+	padding: 0;
+	display: block;
+}
+.line-border span {
+	padding: 10px 20px;
+	position: relative;
+	z-index: 2;
+	background: #f9f9f9;
+}
+.compose-message .btn {
+	padding: 3px 8px;
+}
